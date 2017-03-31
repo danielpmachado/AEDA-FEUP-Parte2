@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['operator_3c',['operator&lt;',['../class_accomodation.html#a7b5ccdc621aaf7c3dbe21800da6988c2',1,'Accomodation::operator&lt;()'],['../class_date.html#a5a3f411cbd59e9ecb90b2f8e6aaea551',1,'Date::operator&lt;()'],['../class_reservation.html#a9d836b9dc4ff0a468cf7d91e9d0a0312',1,'Reservation::operator&lt;()'],['../class_suplier.html#a2c6b3672a740180fc02670efb6fd8872',1,'Suplier::operator&lt;()']]],
+  ['operator_3c_3c',['operator&lt;&lt;',['../class_date.html#a5c29d00ecf33e6d232a410f1f3d6eb70',1,'Date::operator&lt;&lt;()'],['../class_reservation.html#ad08627b6936df4b1b1a5c0351355ffbe',1,'Reservation::operator&lt;&lt;()'],['../class_suplier.html#aab546dada0bfe696a156bc9f08bd5675',1,'Suplier::operator&lt;&lt;()'],['../class_client.html#aea51b89449361cfdb924f76a4f9bc590',1,'Client::operator&lt;&lt;()'],['../class_wrong_option.html#a272717a9c47de3cdf605f30ccc0b7c08',1,'WrongOption::operator&lt;&lt;()'],['../class_invalid_input.html#a6ecc3c0d128c8411aa7a7d336191c9e3',1,'InvalidInput::operator&lt;&lt;()'],['../class_invalid_reservation_i_d.html#a37112c7064f2db8b764ba7f0b9b04ded',1,'InvalidReservationID::operator&lt;&lt;()'],['../class_invalid_date.html#a9ef99a3039876284251a004f3727791c',1,'InvalidDate::operator&lt;&lt;()'],['../class_invalid_log_in.html#a411d1f09f7d055dd9a8be918c5123fbd',1,'InvalidLogIn::operator&lt;&lt;()'],['../class_invalid_username.html#a2abb0b0d8c43a608378bb564bde84706',1,'InvalidUsername::operator&lt;&lt;()'],['../class_error_opening_file.html#af72ed5066b7bbfc4485454291cb5356c',1,'ErrorOpeningFile::operator&lt;&lt;()']]],
+  ['operator_3c_3d',['operator&lt;=',['../class_date.html#a4f314b2216e8760eac284385a7eaae12',1,'Date']]],
+  ['operator_3d_3d',['operator==',['../class_accomodation.html#ae42299afc3f8bf211fe69821f876d48a',1,'Accomodation::operator==()'],['../class_date.html#a18dc8aca1ca4d8cadc2b464db984135b',1,'Date::operator==()'],['../class_reservation.html#aedba0fd671214e780c8933b23585b0c9',1,'Reservation::operator==()'],['../class_user.html#a0881b78e5e9e5040c1f5ecc0e16746b8',1,'User::operator==()']]],
+  ['operator_3e',['operator&gt;',['../class_date.html#a5c40ea6f65fef5d3e1ed8bec5e16ec41',1,'Date']]],
+  ['operator_3e_3d',['operator&gt;=',['../class_date.html#a9aae61020a07731a50cc80927fd8d346',1,'Date']]],
+  ['optionclientaddreservation',['OptionClientAddReservation',['../class_menu.html#aec8d85a14f978bcbbd80b68dca50c8b7',1,'Menu']]],
+  ['optionclientcancelreservation',['OptionClientCancelReservation',['../class_menu.html#a1b5046f15756bbb55fbad646c77019a7',1,'Menu']]],
+  ['optionclientinformation',['OptionClientInformation',['../class_menu.html#a98225b6d738861c594f16da8f5d732b3',1,'Menu']]],
+  ['optionclientshowreservations',['OptionClientShowReservations',['../class_menu.html#aaa94126d89c324140b5a31e6d8aeb059',1,'Menu']]],
+  ['optionguestaddaccomodation',['OptionGuestAddAccomodation',['../class_menu.html#a1c7245c03f9932161ef7dc2361a9c55a',1,'Menu']]],
+  ['optionguestcancelreservation',['OptionGuestCancelReservation',['../class_menu.html#ae3bbaa56e9712e3cf4e9616ee903ce87',1,'Menu']]],
+  ['optionguestshowreservations',['OptionGuestShowReservations',['../class_menu.html#ac3538faa6021838efa1d113357a4d057',1,'Menu']]],
+  ['optioninaclientaddreservation',['OptionInaClientAddReservation',['../class_menu.html#ac87954509d932e68db4b881be7cf4720',1,'Menu']]],
+  ['optioninaclientcancelreservation',['OptionInaClientCancelReservation',['../class_menu.html#a9926ac704596d4b58f9e052eb2b972c7',1,'Menu']]],
+  ['optioninaclientinformation',['OptionInaClientInformation',['../class_menu.html#a00dee88baecc198ca488a394e7c1d8b7',1,'Menu']]],
+  ['optioninaclientshowreservations',['OptionInaClientShowReservations',['../class_menu.html#afb3ef4ef2b6681ad50b1fcbb8893dc06',1,'Menu']]],
+  ['optionlogin',['OptionLogin',['../class_menu.html#adfdae8763c7eae8698af5dd02c8d65c5',1,'Menu']]],
+  ['optionregister',['OptionRegister',['../class_menu.html#a61d2097ab47f782141c5357c8eb6b8d1',1,'Menu']]],
+  ['optionsuplieraddaccomodation',['OptionSuplierAddAccomodation',['../class_menu.html#a5a206bd2b3e8dfa47b2526454489a223',1,'Menu']]],
+  ['optionsuplierinformation',['OptionSuplierInformation',['../class_menu.html#a8b970a2863470d8d06918ad582522371',1,'Menu']]],
+  ['optionsuplierreservations',['OptionSuplierReservations',['../class_menu.html#a38833a562edc41574dcac2e888a9a56f',1,'Menu']]],
+  ['optionsupliershowaccomodations',['OptionSuplierShowAccomodations',['../class_menu.html#acd1b717ce9b7e5d2f65d5d6ac64b1513',1,'Menu']]],
+  ['optionsupliershowfees',['OptionSuplierShowFees',['../class_menu.html#aee11e9ba60e367e3f48d73033f413804',1,'Menu']]]
+];

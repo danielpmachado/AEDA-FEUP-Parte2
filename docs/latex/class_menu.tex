@@ -1,0 +1,612 @@
+\hypertarget{class_menu}{}\section{Menu Class Reference}
+\label{class_menu}\index{Menu@{Menu}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_menu_ad466dd83355124a6ed958430450bfe94}{}\label{class_menu_ad466dd83355124a6ed958430450bfe94} 
+\hyperlink{class_menu_ad466dd83355124a6ed958430450bfe94}{Menu} ()
+\begin{DoxyCompactList}\small\item\em constructor for the Main \hyperlink{class_menu}{Menu}, it starts the program \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_adcf02507debb82d202a5849317fd475c}{novo\+Menu} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em displays initial \hyperlink{class_menu}{Menu} \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a84baff6bb52d20d742d5d750fad6750d}{client\+Menu} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em displays clients \hyperlink{class_menu}{Menu} \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a6226dbafc289ffa312b537d211462ba6}{log\+In} (\hyperlink{class_company}{Company} \&comp, char user)
+\begin{DoxyCompactList}\small\item\em treats both \hyperlink{class_client}{Client} and \hyperlink{class_suplier}{Suplier} log in \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ac04305abdf189f485546c323023fd8b6}{main\+Menu} (\hyperlink{class_company}{Company} \&comp, char user)
+\begin{DoxyCompactList}\small\item\em displays a \hyperlink{class_menu}{Menu} that allows the user either to register or log in \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a3975fa8a4000220fed81af46ccd24da4}{guest\+Menu} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em displays the menu for clients hat are not registed \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a5b816b93adda2ccae15ee205855a139c}{suplier\+Menu} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em displays supliers menu \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a8df6166e3d285587a8a0f827adac2963}{admin\+Menu} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em displays Administrator menu \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_aa69e8ebe9ec9d077de45860e46a5fcbc}{client\+Menu\+Hash} (\hyperlink{class_company}{Company} \&comp, unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator ith)
+\begin{DoxyCompactList}\small\item\em displays Inactive Clients menu \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ad2ab81c4a817ce989669873977dc59c2}{write\+Client\+Menu} (int x)
+\begin{DoxyCompactList}\small\item\em writes \hyperlink{class_client}{Client} \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a807767f25b48bb6007fd437ce20ca9ee}{write\+Guest\+Menu} (int x)
+\begin{DoxyCompactList}\small\item\em writes Guest \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a27065457645afe85598070c8d009b439}{write\+Option\+Main\+Menu} (int)
+\begin{DoxyCompactList}\small\item\em writes Main \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_acc70f0214e040f8efae051c01f523994}{write\+Option\+Start\+Menu} (int)
+\begin{DoxyCompactList}\small\item\em writes Start \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a334f5dc94dfbf43d56aa4c3a94cf8f11}{write\+Suplier\+Menu} (int)
+\begin{DoxyCompactList}\small\item\em writes \hyperlink{class_suplier}{Suplier} \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a604dde8d1682c7a528e53e8a4304297c}{write\+Admin\+Menu} (int x)
+\begin{DoxyCompactList}\small\item\em writes Administrator \hyperlink{class_menu}{Menu} Options \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a5a206bd2b3e8dfa47b2526454489a223}{Option\+Suplier\+Add\+Accomodation} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_suplier}{Suplier} Add \hyperlink{class_accomodation}{Accomodation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_acd1b717ce9b7e5d2f65d5d6ac64b1513}{Option\+Suplier\+Show\+Accomodations} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_suplier}{Suplier} Show Accomodations Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a8b970a2863470d8d06918ad582522371}{Option\+Suplier\+Information} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_suplier}{Suplier} Information Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a38833a562edc41574dcac2e888a9a56f}{Option\+Suplier\+Reservations} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_suplier}{Suplier} Reservations Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_aee11e9ba60e367e3f48d73033f413804}{Option\+Suplier\+Show\+Fees} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_suplier}{Suplier} Show Fees Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_aec8d85a14f978bcbbd80b68dca50c8b7}{Option\+Client\+Add\+Reservation} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_aaa94126d89c324140b5a31e6d8aeb059}{Option\+Client\+Show\+Reservations} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_client}{Client} Show Reservations Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a1b5046f15756bbb55fbad646c77019a7}{Option\+Client\+Cancel\+Reservation} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_client}{Client} Cancel \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a98225b6d738861c594f16da8f5d732b3}{Option\+Client\+Information} (\hyperlink{class_company}{Company} \&comp, vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator it)
+\begin{DoxyCompactList}\small\item\em executes the \hyperlink{class_client}{Client} Information Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ac87954509d932e68db4b881be7cf4720}{Option\+Ina\+Client\+Add\+Reservation} (\hyperlink{class_company}{Company} \&comp, unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator ith)
+\begin{DoxyCompactList}\small\item\em executes the Inactive \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_afb3ef4ef2b6681ad50b1fcbb8893dc06}{Option\+Ina\+Client\+Show\+Reservations} (\hyperlink{class_company}{Company} \&comp, unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator ith)
+\begin{DoxyCompactList}\small\item\em executes the Inactive \hyperlink{class_client}{Client} Show Reservations Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a9926ac704596d4b58f9e052eb2b972c7}{Option\+Ina\+Client\+Cancel\+Reservation} (\hyperlink{class_company}{Company} \&comp, unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator ith)
+\begin{DoxyCompactList}\small\item\em executes the Inactive \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a00dee88baecc198ca488a394e7c1d8b7}{Option\+Ina\+Client\+Information} (\hyperlink{class_company}{Company} \&comp, unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator ith)
+\begin{DoxyCompactList}\small\item\em executes the Inactive \hyperlink{class_client}{Client} Inforamation Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a1c7245c03f9932161ef7dc2361a9c55a}{Option\+Guest\+Add\+Accomodation} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em executes the Guest Add \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ae3bbaa56e9712e3cf4e9616ee903ce87}{Option\+Guest\+Cancel\+Reservation} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em executes the Guest Cancel \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ac3538faa6021838efa1d113357a4d057}{Option\+Guest\+Show\+Reservations} (\hyperlink{class_company}{Company} \&comp)
+\begin{DoxyCompactList}\small\item\em executes the Guest Show \hyperlink{class_reservation}{Reservation} Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a61d2097ab47f782141c5357c8eb6b8d1}{Option\+Register} (\hyperlink{class_company}{Company} \&comp, char user)
+\begin{DoxyCompactList}\small\item\em executes the Main \hyperlink{class_menu}{Menu} Register Option \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_adfdae8763c7eae8698af5dd02c8d65c5}{Option\+Login} (\hyperlink{class_company}{Company} \&comp, char user)
+\begin{DoxyCompactList}\small\item\em executes the Main \hyperlink{class_menu}{Menu} Login Option \end{DoxyCompactList}\item 
+bool \hyperlink{class_menu_a0667d42e9888ba144d20b83a0855310d}{get\+Exit} ()
+\begin{DoxyCompactList}\small\item\em executes the Main \hyperlink{class_menu}{Menu} Login Option \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_menu_a8df6166e3d285587a8a0f827adac2963}{}\label{class_menu_a8df6166e3d285587a8a0f827adac2963} 
+\index{Menu@{Menu}!admin\+Menu@{admin\+Menu}}
+\index{admin\+Menu@{admin\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{admin\+Menu()}{adminMenu()}}
+{\footnotesize\ttfamily void Menu\+::admin\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+displays Administrator menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a84baff6bb52d20d742d5d750fad6750d}{}\label{class_menu_a84baff6bb52d20d742d5d750fad6750d} 
+\index{Menu@{Menu}!client\+Menu@{client\+Menu}}
+\index{client\+Menu@{client\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{client\+Menu()}{clientMenu()}}
+{\footnotesize\ttfamily void Menu\+::client\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+displays clients \hyperlink{class_menu}{Menu} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & iterator to the specific \hyperlink{class_client}{Client} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_aa69e8ebe9ec9d077de45860e46a5fcbc}{}\label{class_menu_aa69e8ebe9ec9d077de45860e46a5fcbc} 
+\index{Menu@{Menu}!client\+Menu\+Hash@{client\+Menu\+Hash}}
+\index{client\+Menu\+Hash@{client\+Menu\+Hash}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{client\+Menu\+Hash()}{clientMenuHash()}}
+{\footnotesize\ttfamily void Menu\+::client\+Menu\+Hash (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator}]{ith }\end{DoxyParamCaption})}
+
+
+
+displays Inactive Clients menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em ith} & itearator to the specific client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a0667d42e9888ba144d20b83a0855310d}{}\label{class_menu_a0667d42e9888ba144d20b83a0855310d} 
+\index{Menu@{Menu}!get\+Exit@{get\+Exit}}
+\index{get\+Exit@{get\+Exit}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{get\+Exit()}{getExit()}}
+{\footnotesize\ttfamily bool Menu\+::get\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+executes the Main \hyperlink{class_menu}{Menu} Login Option 
+
+\begin{DoxyReturn}{Returns}
+exit state, whereas you should exit the program 
+\end{DoxyReturn}
+\hypertarget{class_menu_a3975fa8a4000220fed81af46ccd24da4}{}\label{class_menu_a3975fa8a4000220fed81af46ccd24da4} 
+\index{Menu@{Menu}!guest\+Menu@{guest\+Menu}}
+\index{guest\+Menu@{guest\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{guest\+Menu()}{guestMenu()}}
+{\footnotesize\ttfamily void Menu\+::guest\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+displays the menu for clients hat are not registed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a6226dbafc289ffa312b537d211462ba6}{}\label{class_menu_a6226dbafc289ffa312b537d211462ba6} 
+\index{Menu@{Menu}!log\+In@{log\+In}}
+\index{log\+In@{log\+In}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{log\+In()}{logIn()}}
+{\footnotesize\ttfamily void Menu\+::log\+In (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{char}]{user }\end{DoxyParamCaption})}
+
+
+
+treats both \hyperlink{class_client}{Client} and \hyperlink{class_suplier}{Suplier} log in 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em user,\textquotesingle{}} & c\textquotesingle{} if the user is a client,\textquotesingle{} s\textquotesingle{} if the user is a suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_ac04305abdf189f485546c323023fd8b6}{}\label{class_menu_ac04305abdf189f485546c323023fd8b6} 
+\index{Menu@{Menu}!main\+Menu@{main\+Menu}}
+\index{main\+Menu@{main\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{main\+Menu()}{mainMenu()}}
+{\footnotesize\ttfamily void Menu\+::main\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{char}]{user }\end{DoxyParamCaption})}
+
+
+
+displays a \hyperlink{class_menu}{Menu} that allows the user either to register or log in 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em user,\textquotesingle{}} & c\textquotesingle{} if the user is a client,\textquotesingle{} s\textquotesingle{} if the user is a suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_adcf02507debb82d202a5849317fd475c}{}\label{class_menu_adcf02507debb82d202a5849317fd475c} 
+\index{Menu@{Menu}!novo\+Menu@{novo\+Menu}}
+\index{novo\+Menu@{novo\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{novo\+Menu()}{novoMenu()}}
+{\footnotesize\ttfamily void Menu\+::novo\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+displays initial \hyperlink{class_menu}{Menu} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_aec8d85a14f978bcbbd80b68dca50c8b7}{}\label{class_menu_aec8d85a14f978bcbbd80b68dca50c8b7} 
+\index{Menu@{Menu}!Option\+Client\+Add\+Reservation@{Option\+Client\+Add\+Reservation}}
+\index{Option\+Client\+Add\+Reservation@{Option\+Client\+Add\+Reservation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Client\+Add\+Reservation()}{OptionClientAddReservation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Client\+Add\+Reservation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a1b5046f15756bbb55fbad646c77019a7}{}\label{class_menu_a1b5046f15756bbb55fbad646c77019a7} 
+\index{Menu@{Menu}!Option\+Client\+Cancel\+Reservation@{Option\+Client\+Cancel\+Reservation}}
+\index{Option\+Client\+Cancel\+Reservation@{Option\+Client\+Cancel\+Reservation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Client\+Cancel\+Reservation()}{OptionClientCancelReservation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Client\+Cancel\+Reservation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_client}{Client} Cancel \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a98225b6d738861c594f16da8f5d732b3}{}\label{class_menu_a98225b6d738861c594f16da8f5d732b3} 
+\index{Menu@{Menu}!Option\+Client\+Information@{Option\+Client\+Information}}
+\index{Option\+Client\+Information@{Option\+Client\+Information}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Client\+Information()}{OptionClientInformation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Client\+Information (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_client}{Client} Information Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_aaa94126d89c324140b5a31e6d8aeb059}{}\label{class_menu_aaa94126d89c324140b5a31e6d8aeb059} 
+\index{Menu@{Menu}!Option\+Client\+Show\+Reservations@{Option\+Client\+Show\+Reservations}}
+\index{Option\+Client\+Show\+Reservations@{Option\+Client\+Show\+Reservations}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Client\+Show\+Reservations()}{OptionClientShowReservations()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Client\+Show\+Reservations (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_client}{Client} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_client}{Client} Show Reservations Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a1c7245c03f9932161ef7dc2361a9c55a}{}\label{class_menu_a1c7245c03f9932161ef7dc2361a9c55a} 
+\index{Menu@{Menu}!Option\+Guest\+Add\+Accomodation@{Option\+Guest\+Add\+Accomodation}}
+\index{Option\+Guest\+Add\+Accomodation@{Option\+Guest\+Add\+Accomodation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Guest\+Add\+Accomodation()}{OptionGuestAddAccomodation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Guest\+Add\+Accomodation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+executes the Guest Add \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_ae3bbaa56e9712e3cf4e9616ee903ce87}{}\label{class_menu_ae3bbaa56e9712e3cf4e9616ee903ce87} 
+\index{Menu@{Menu}!Option\+Guest\+Cancel\+Reservation@{Option\+Guest\+Cancel\+Reservation}}
+\index{Option\+Guest\+Cancel\+Reservation@{Option\+Guest\+Cancel\+Reservation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Guest\+Cancel\+Reservation()}{OptionGuestCancelReservation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Guest\+Cancel\+Reservation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+executes the Guest Cancel \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_ac3538faa6021838efa1d113357a4d057}{}\label{class_menu_ac3538faa6021838efa1d113357a4d057} 
+\index{Menu@{Menu}!Option\+Guest\+Show\+Reservations@{Option\+Guest\+Show\+Reservations}}
+\index{Option\+Guest\+Show\+Reservations@{Option\+Guest\+Show\+Reservations}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Guest\+Show\+Reservations()}{OptionGuestShowReservations()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Guest\+Show\+Reservations (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp }\end{DoxyParamCaption})}
+
+
+
+executes the Guest Show \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_ac87954509d932e68db4b881be7cf4720}{}\label{class_menu_ac87954509d932e68db4b881be7cf4720} 
+\index{Menu@{Menu}!Option\+Ina\+Client\+Add\+Reservation@{Option\+Ina\+Client\+Add\+Reservation}}
+\index{Option\+Ina\+Client\+Add\+Reservation@{Option\+Ina\+Client\+Add\+Reservation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Ina\+Client\+Add\+Reservation()}{OptionInaClientAddReservation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Ina\+Client\+Add\+Reservation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator}]{ith }\end{DoxyParamCaption})}
+
+
+
+executes the Inactive \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em ith} & itearator to the specific inactive client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a9926ac704596d4b58f9e052eb2b972c7}{}\label{class_menu_a9926ac704596d4b58f9e052eb2b972c7} 
+\index{Menu@{Menu}!Option\+Ina\+Client\+Cancel\+Reservation@{Option\+Ina\+Client\+Cancel\+Reservation}}
+\index{Option\+Ina\+Client\+Cancel\+Reservation@{Option\+Ina\+Client\+Cancel\+Reservation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Ina\+Client\+Cancel\+Reservation()}{OptionInaClientCancelReservation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Ina\+Client\+Cancel\+Reservation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator}]{ith }\end{DoxyParamCaption})}
+
+
+
+executes the Inactive \hyperlink{class_client}{Client} Add \hyperlink{class_reservation}{Reservation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em ith} & itearator to the specific inactive client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a00dee88baecc198ca488a394e7c1d8b7}{}\label{class_menu_a00dee88baecc198ca488a394e7c1d8b7} 
+\index{Menu@{Menu}!Option\+Ina\+Client\+Information@{Option\+Ina\+Client\+Information}}
+\index{Option\+Ina\+Client\+Information@{Option\+Ina\+Client\+Information}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Ina\+Client\+Information()}{OptionInaClientInformation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Ina\+Client\+Information (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator}]{ith }\end{DoxyParamCaption})}
+
+
+
+executes the Inactive \hyperlink{class_client}{Client} Inforamation Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em ith} & itearator to the specific inactive client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_afb3ef4ef2b6681ad50b1fcbb8893dc06}{}\label{class_menu_afb3ef4ef2b6681ad50b1fcbb8893dc06} 
+\index{Menu@{Menu}!Option\+Ina\+Client\+Show\+Reservations@{Option\+Ina\+Client\+Show\+Reservations}}
+\index{Option\+Ina\+Client\+Show\+Reservations@{Option\+Ina\+Client\+Show\+Reservations}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Ina\+Client\+Show\+Reservations()}{OptionInaClientShowReservations()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Ina\+Client\+Show\+Reservations (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{unordered\+\_\+set$<$ \hyperlink{class_client}{Client}, \hyperlink{structhcli}{hcli}, \hyperlink{structeqcli}{eqcli} $>$\+::iterator}]{ith }\end{DoxyParamCaption})}
+
+
+
+executes the Inactive \hyperlink{class_client}{Client} Show Reservations Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em ith} & itearator to the specific inactive client \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_adfdae8763c7eae8698af5dd02c8d65c5}{}\label{class_menu_adfdae8763c7eae8698af5dd02c8d65c5} 
+\index{Menu@{Menu}!Option\+Login@{Option\+Login}}
+\index{Option\+Login@{Option\+Login}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Login()}{OptionLogin()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Login (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{char}]{user }\end{DoxyParamCaption})}
+
+
+
+executes the Main \hyperlink{class_menu}{Menu} Login Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a61d2097ab47f782141c5357c8eb6b8d1}{}\label{class_menu_a61d2097ab47f782141c5357c8eb6b8d1} 
+\index{Menu@{Menu}!Option\+Register@{Option\+Register}}
+\index{Option\+Register@{Option\+Register}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Register()}{OptionRegister()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Register (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{char}]{user }\end{DoxyParamCaption})}
+
+
+
+executes the Main \hyperlink{class_menu}{Menu} Register Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a5a206bd2b3e8dfa47b2526454489a223}{}\label{class_menu_a5a206bd2b3e8dfa47b2526454489a223} 
+\index{Menu@{Menu}!Option\+Suplier\+Add\+Accomodation@{Option\+Suplier\+Add\+Accomodation}}
+\index{Option\+Suplier\+Add\+Accomodation@{Option\+Suplier\+Add\+Accomodation}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Suplier\+Add\+Accomodation()}{OptionSuplierAddAccomodation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Suplier\+Add\+Accomodation (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_suplier}{Suplier} Add \hyperlink{class_accomodation}{Accomodation} Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a8b970a2863470d8d06918ad582522371}{}\label{class_menu_a8b970a2863470d8d06918ad582522371} 
+\index{Menu@{Menu}!Option\+Suplier\+Information@{Option\+Suplier\+Information}}
+\index{Option\+Suplier\+Information@{Option\+Suplier\+Information}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Suplier\+Information()}{OptionSuplierInformation()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Suplier\+Information (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_suplier}{Suplier} Information Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a38833a562edc41574dcac2e888a9a56f}{}\label{class_menu_a38833a562edc41574dcac2e888a9a56f} 
+\index{Menu@{Menu}!Option\+Suplier\+Reservations@{Option\+Suplier\+Reservations}}
+\index{Option\+Suplier\+Reservations@{Option\+Suplier\+Reservations}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Suplier\+Reservations()}{OptionSuplierReservations()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Suplier\+Reservations (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_suplier}{Suplier} Reservations Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_acd1b717ce9b7e5d2f65d5d6ac64b1513}{}\label{class_menu_acd1b717ce9b7e5d2f65d5d6ac64b1513} 
+\index{Menu@{Menu}!Option\+Suplier\+Show\+Accomodations@{Option\+Suplier\+Show\+Accomodations}}
+\index{Option\+Suplier\+Show\+Accomodations@{Option\+Suplier\+Show\+Accomodations}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Suplier\+Show\+Accomodations()}{OptionSuplierShowAccomodations()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Suplier\+Show\+Accomodations (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_suplier}{Suplier} Show Accomodations Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_aee11e9ba60e367e3f48d73033f413804}{}\label{class_menu_aee11e9ba60e367e3f48d73033f413804} 
+\index{Menu@{Menu}!Option\+Suplier\+Show\+Fees@{Option\+Suplier\+Show\+Fees}}
+\index{Option\+Suplier\+Show\+Fees@{Option\+Suplier\+Show\+Fees}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{Option\+Suplier\+Show\+Fees()}{OptionSuplierShowFees()}}
+{\footnotesize\ttfamily void Menu\+::\+Option\+Suplier\+Show\+Fees (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+executes the \hyperlink{class_suplier}{Suplier} Show Fees Option 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a5b816b93adda2ccae15ee205855a139c}{}\label{class_menu_a5b816b93adda2ccae15ee205855a139c} 
+\index{Menu@{Menu}!suplier\+Menu@{suplier\+Menu}}
+\index{suplier\+Menu@{suplier\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{suplier\+Menu()}{suplierMenu()}}
+{\footnotesize\ttfamily void Menu\+::suplier\+Menu (\begin{DoxyParamCaption}\item[{\hyperlink{class_company}{Company} \&}]{comp,  }\item[{vector$<$ \hyperlink{class_suplier}{Suplier} $>$\+::iterator}]{it }\end{DoxyParamCaption})}
+
+
+
+displays supliers menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em comp} & \hyperlink{class_company}{Company} created\\
+\hline
+{\em it} & itearator to the specific suplier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a604dde8d1682c7a528e53e8a4304297c}{}\label{class_menu_a604dde8d1682c7a528e53e8a4304297c} 
+\index{Menu@{Menu}!write\+Admin\+Menu@{write\+Admin\+Menu}}
+\index{write\+Admin\+Menu@{write\+Admin\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Admin\+Menu()}{writeAdminMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Admin\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes Administrator \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_ad2ab81c4a817ce989669873977dc59c2}{}\label{class_menu_ad2ab81c4a817ce989669873977dc59c2} 
+\index{Menu@{Menu}!write\+Client\+Menu@{write\+Client\+Menu}}
+\index{write\+Client\+Menu@{write\+Client\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Client\+Menu()}{writeClientMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Client\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes \hyperlink{class_client}{Client} \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a807767f25b48bb6007fd437ce20ca9ee}{}\label{class_menu_a807767f25b48bb6007fd437ce20ca9ee} 
+\index{Menu@{Menu}!write\+Guest\+Menu@{write\+Guest\+Menu}}
+\index{write\+Guest\+Menu@{write\+Guest\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Guest\+Menu()}{writeGuestMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Guest\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes Guest \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a27065457645afe85598070c8d009b439}{}\label{class_menu_a27065457645afe85598070c8d009b439} 
+\index{Menu@{Menu}!write\+Option\+Main\+Menu@{write\+Option\+Main\+Menu}}
+\index{write\+Option\+Main\+Menu@{write\+Option\+Main\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Option\+Main\+Menu()}{writeOptionMainMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Option\+Main\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes Main \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_acc70f0214e040f8efae051c01f523994}{}\label{class_menu_acc70f0214e040f8efae051c01f523994} 
+\index{Menu@{Menu}!write\+Option\+Start\+Menu@{write\+Option\+Start\+Menu}}
+\index{write\+Option\+Start\+Menu@{write\+Option\+Start\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Option\+Start\+Menu()}{writeOptionStartMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Option\+Start\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes Start \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_menu_a334f5dc94dfbf43d56aa4c3a94cf8f11}{}\label{class_menu_a334f5dc94dfbf43d56aa4c3a94cf8f11} 
+\index{Menu@{Menu}!write\+Suplier\+Menu@{write\+Suplier\+Menu}}
+\index{write\+Suplier\+Menu@{write\+Suplier\+Menu}!Menu@{Menu}}
+\subsubsection{\texorpdfstring{write\+Suplier\+Menu()}{writeSuplierMenu()}}
+{\footnotesize\ttfamily void Menu\+::write\+Suplier\+Menu (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+writes \hyperlink{class_suplier}{Suplier} \hyperlink{class_menu}{Menu} Options 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & option that is selected \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+projeto\+\_\+\+A\+Place\+In\+The\+Sun\+\_\+2/projeto\+\_\+\+A\+Place\+In\+The\+Sun\+\_\+2/Menus.\+h\item 
+projeto\+\_\+\+A\+Place\+In\+The\+Sun\+\_\+2/projeto\+\_\+\+A\+Place\+In\+The\+Sun\+\_\+2/Menus.\+cpp\end{DoxyCompactItemize}
